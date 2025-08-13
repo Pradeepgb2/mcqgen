@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is the main goal of a learner in machine learning?,a: To memorize the training data | b: To generalize from its experience | c: To ignore the training data | d: To overfit the model,b
+Which type of learning involves finding structures in unlabelled data?,a: Supervised learning | b: Unsupervised learning | c: Reinforcement learning | d: Semi-supervised learning,b
+What is the process of reducing the number of random variables under consideration?,a: Feature extraction | b: Feature elimination | c: Dimensionality reduction | d: Manifold learning,c
+In which type of learning are the training data labelled with the expected outputs?,a: Supervised learning | b: Unsupervised learning | c: Reinforcement learning | d: Semi-supervised learning,a
+What is the goal of reinforcement learning?,a: To classify data | b: To find structures in unlabelled data | c: To maximise cumulative reward | d: To reduce dimensionality,c
