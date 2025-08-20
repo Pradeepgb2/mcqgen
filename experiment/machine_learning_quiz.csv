@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is the primary goal of supervised learning?,a: To find hidden patterns in data | b: To predict outputs based on input-output pairs | c: To interact with a dynamic environment | d: To identify commonalities in unlabelled data,b
+Which type of learning involves finding structures in data without labels?,a: Supervised learning | b: Reinforcement learning | c: Unsupervised learning | d: Semi-supervised learning,c
+What is the process of reducing the number of random variables under consideration?,a: Feature extraction | b: Feature elimination | c: Dimensionality reduction | d: Clustering,c
+In which type of learning is the environment represented as a Markov decision process?,a: Supervised learning | b: Unsupervised learning | c: Reinforcement learning | d: Semi-supervised learning,c
+What is the main difference between statistics and machine learning?,"a: Statistics focuses on prediction, while machine learning focuses on population inferences | b: Statistics draws population inferences, while machine learning finds generalisable predictive patterns | c: Statistics uses labelled data, while machine learning uses unlabelled data | d: Machine learning uses a priori models, while statistics does not",b
