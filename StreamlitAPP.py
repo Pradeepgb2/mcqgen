@@ -71,9 +71,13 @@ with st.form("user_inputs"):
                         if table_data is not None:
                             df=pd.DataFrame(table_data)
                             df.index=df.index+1
+
+                            
                             st.table(df)
                             #Display the review in atext box as well
                             st.text_area(label="Review", value=response["review"])
+
+                            
                             # --- Download buttons --- # Download as CSV
                             csv = df.to_csv(index=False).encode('utf-8')
                             st.download_button(
