@@ -74,6 +74,13 @@ with st.form("user_inputs"):
                             st.table(df)
                             #Display the review in atext box as well
                             st.text_area(label="Review", value=response["review"])
+                            # --- Download buttons --- # Download as CSV
+                            csv = df.to_csv(index=False).encode('utf-8')
+                            st.download_button(
+                                label="📥 Download Quiz as CSV",
+                                data=csv,
+                                file_name="quiz.csv",
+                                mime="text/csv")
                         else:
                             st.error("Error in the table data")
 
